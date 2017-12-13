@@ -1,0 +1,31 @@
+.homeBody {
+  width: 700px;
+  margin: 10px auto;
+  background-color: #6ebbfe;
+  padding: 10px;
+}
+.homeTitle {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #346ef0;
+  padding: 5px;
+  font-size: 24px;
+}
+.homeContent>p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #444;
+}
+
+@media screen and (max-width: 768px) {
+  .homeBody {
+    width: 90%;
+  }
+  .homeTitle {
+    font-size: 20px;
+  }
+  .homeContent>p {
+    font-size: 16px;
+  }
+}

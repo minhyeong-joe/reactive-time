@@ -1,0 +1,56 @@
+.stopwatchBody {
+  width: 700px;
+  margin: 10px auto;
+  background-color: #6ebbfe;
+  padding: 10px;
+}
+.stopwatchTitle {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #346ef0;
+  padding: 5px;
+  font-size: 24px;
+}
+.stopwatchBody>.display {
+  border: 5px double #6e6e6e;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: default;
+  display: block;
+  padding: 10px;
+  color: white;
+  width: 185px;
+  text-align: right;
+  margin: 20px auto;
+}
+.stopwatchBody>.btnGroup {
+  margin: auto;
+  width: 185px;
+  display: flex;
+  justify-content: space-around;
+}
+.recordContent {
+  width: 185px;
+  min-height: 80px;
+  padding: 5px 0;
+  margin: 20px auto;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recordContent>p {
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .stopwatchBody {
+    width: 90%;
+  }
+  .stopwatchTitle {
+    font-size: 20px;
+  }
+}

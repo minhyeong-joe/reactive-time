@@ -1,0 +1,60 @@
+.countdownBody {
+  width: 700px;
+  margin: 10px auto;
+  background-color: #6ebbfe;
+  padding: 10px;
+  text-align: center;
+}
+.countdownTitle {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #346ef0;
+  padding: 5px;
+  font-size: 24px;
+}
+.display {
+  border: 5px double #6e6e6e;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: default;
+  display: flex;
+  padding: 10px;
+  color: white;
+  width: 185px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px auto;
+}
+.btnGroup {
+  margin: auto;
+  width: 185px;
+  display: flex;
+  justify-content: space-around;
+}
+.setter {
+  width: 280px;
+  margin: 20px auto;
+}
+.setter>input {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  width: 45px;
+  user-select: text;
+}
+
+@media screen and (max-width: 768px) {
+  .countdownBody {
+    width: 90%;
+  }
+  .countdownTitle {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .setter {
+    width: 100px;
+  }
+}
