@@ -28,11 +28,11 @@ export default class Narrowbar extends Component {
           <div className="menuBar"></div>
         </div>
         <div className="menuList">
-          <div className="menuItem"><NavLink to="/reactivetime" replace exact activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Home</NavLink></div>
-          <div className="menuItem"><NavLink to="/reactivetime/stopwatch" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Stopwatch</NavLink></div>
-          <div className="menuItem"><NavLink to="/reactivetime/countdown" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Countdown</NavLink></div>
-          <div className="menuItem"><NavLink to="/reactivetime/worldtime" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>World Time</NavLink></div>
-          <div className="menuItem"><NavLink to="/reactivetime/ddaycount" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Date-to-Date</NavLink></div>
+          <div className="menuItem"><NavLink to="/reactive-time" replace exact activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Home</NavLink></div>
+          <div className="menuItem"><NavLink to="/reactive-time/stopwatch" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Stopwatch</NavLink></div>
+          <div className="menuItem"><NavLink to="/reactive-time/countdown" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Countdown</NavLink></div>
+          <div className="menuItem"><NavLink to="/reactive-time/worldtime" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>World Time</NavLink></div>
+          <div className="menuItem"><NavLink to="/reactive-time/ddaycount" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}} onClick={this.menuToggle.bind(this)}>Date-to-Date</NavLink></div>
         </div>
       </div>
     );

@@ -26,11 +26,11 @@ class App extends Component {
             <Narrowbar/>
             <div className="body">
               <LocalTime/>
-              <Route exact path="/reactivetime" component={Home}/>
-              <Route exact path="/reactivetime/stopwatch" component={StopWatch}/>
-              <Route exact path="/reactivetime/countdown" component={CountDown}/>
-              <Route exact path="/reactivetime/worldtime" component={WorldTime}/>
-              <Route exact path="/reactivetime/ddaycount" component={DayCount}/>
+              <Route exact path="/reactive-time" component={Home}/>
+              <Route exact path="/reactive-time/stopwatch" component={StopWatch}/>
+              <Route exact path="/reactive-time/countdown" component={CountDown}/>
+              <Route exact path="/reactive-time/worldtime" component={WorldTime}/>
+              <Route exact path="/reactive-time/ddaycount" component={DayCount}/>
             </div>
           </div>
           <Footer/>

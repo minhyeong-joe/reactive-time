@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="container">
       <p className="footer">ⓒCopyright 2017</p>
-      <p className="footer" onClick={()=>{window.open("https://sanheng03.github.io")}}>Minhyeong Joe</p>
+      <p className="footer" onClick={()=>{window.open("https://mj-webdev.com")}}>Minhyeong Joe</p>
     </div>
   );
 };

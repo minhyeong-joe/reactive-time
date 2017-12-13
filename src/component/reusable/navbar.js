@@ -13,11 +13,11 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <ul>
-          <li className="navItem"><NavLink to="/reactivetime" replace exact activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Home</NavLink></li>
-          <li className="navItem"><NavLink to="/reactivetime/stopwatch" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Stopwatch</NavLink></li>
-          <li className="navItem"><NavLink to="/reactivetime/countdown" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Countdown</NavLink></li>
-          <li className="navItem"><NavLink to="/reactivetime/worldtime" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>World Time</NavLink></li>
-          <li className="navItem"><NavLink to="/reactivetime/ddaycount" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Date-to-Date</NavLink></li>
+          <li className="navItem"><NavLink to="/reactive-time" replace exact activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Home</NavLink></li>
+          <li className="navItem"><NavLink to="/reactive-time/stopwatch" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Stopwatch</NavLink></li>
+          <li className="navItem"><NavLink to="/reactive-time/countdown" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Countdown</NavLink></li>
+          <li className="navItem"><NavLink to="/reactive-time/worldtime" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>World Time</NavLink></li>
+          <li className="navItem"><NavLink to="/reactive-time/ddaycount" replace activeStyle={{color: "white", backgroundColor: "#1533d9"}}>Date-to-Date</NavLink></li>
         </ul>
       </div>
     );
